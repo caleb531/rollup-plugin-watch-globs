@@ -2,7 +2,7 @@ import glob from 'glob';
 import path from 'path';
 import { PluginHooks } from 'rollup';
 
-function watchMore(globs: string[]): Partial<PluginHooks> {
+function watchGlobs(globs: string[]): Partial<PluginHooks> {
 
   return {
     buildStart() {
@@ -16,4 +16,4 @@ function watchMore(globs: string[]): Partial<PluginHooks> {
 
 }
 
-export default watchMore;
+export default watchGlobs;
