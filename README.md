@@ -38,6 +38,12 @@ export default {
 }
 ```
 
+This can be useful in conjunction with plugins like
+[rollup-plugin-copy][copy-plugin] to watch for changes the same static files
+that you might copy to your build directory.
+
+[copy-plugin]: https://www.npmjs.com/package/rollup-plugin-copy
+
 ## Attribution
 
 This project was inspired by [code written by @thekip][original-code] for
