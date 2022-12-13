@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-watch-globs",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Rollup plugin that allows you to watch arbitrary files for changes (like static assets and stylesheets)",
   "main": "index.cjs.js",
   "module": "index.es.js",
