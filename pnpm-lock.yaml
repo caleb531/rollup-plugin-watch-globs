@@ -5,16 +5,16 @@ specifiers:
   '@types/glob': ^7.2.0
   '@types/node': ^18.6.4
   glob: ^8.0.3
-  rollup: ^2.77.2
+  rollup: ^3.7.4
   tslib: ^2.4.0
   typescript: ^4.7.4
 
 dependencies:
   glob: 8.0.3
-  rollup: 2.79.1
+  rollup: 3.7.4
 
 devDependencies:
-  '@rollup/plugin-typescript': 8.5.0_sbiskyiysxhldmns7rmnvoiszu
+  '@rollup/plugin-typescript': 8.5.0_ksuudmkloucy44p3irodiuckje
   '@types/glob': 7.2.0
   '@types/node': 18.11.13
   tslib: 2.4.1
@@ -22,7 +22,7 @@ devDependencies:
 
 packages:
 
-  /@rollup/plugin-typescript/8.5.0_sbiskyiysxhldmns7rmnvoiszu:
+  /@rollup/plugin-typescript/8.5.0_ksuudmkloucy44p3irodiuckje:
     resolution: {integrity: sha512-wMv1/scv0m/rXx21wD2IsBbJFba8wGF3ErJIr6IKRfRj49S85Lszbxb4DCo8iILpluTjk2GAAu9CoZt4G3ppgQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -33,14 +33,14 @@ packages:
       tslib:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.79.1
+      '@rollup/pluginutils': 3.1.0_rollup@3.7.4
       resolve: 1.22.1
-      rollup: 2.79.1
+      rollup: 3.7.4
       tslib: 2.4.1
       typescript: 4.9.4
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.79.1:
+  /@rollup/pluginutils/3.1.0_rollup@3.7.4:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -49,7 +49,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.79.1
+      rollup: 3.7.4
     dev: true
 
   /@types/estree/0.0.39:
@@ -166,9 +166,9 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup/2.79.1:
-    resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
-    engines: {node: '>=10.0.0'}
+  /rollup/3.7.4:
+    resolution: {integrity: sha512-jN9rx3k5pfg9H9al0r0y1EYKSeiRANZRYX32SuNXAnKzh6cVyf4LZVto1KAuDnbHT03E1CpsgqDKaqQ8FZtgxw==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2

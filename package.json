@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "glob": "^8.0.3",
-    "rollup": "^2.77.2"
+    "rollup": "^3.7.4"
   },
   "peerDependencies": {
     "rollup": ">=2.0.0"

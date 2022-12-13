@@ -1,4 +1,4 @@
 tsconfig.json
-rollup.config.js
+rollup.config.mjs
 .editorconfig
 index.ts
