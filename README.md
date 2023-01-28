@@ -1,6 +1,6 @@
 # rollup-plugin-watch-globs
 
-*Copyright 2022, Caleb Evans*  
+*Copyright 2022-2023, Caleb Evans*  
 *Released under the MIT License*
 
 By default, the `rollup -w` command in Rollup only watches for changes to files
