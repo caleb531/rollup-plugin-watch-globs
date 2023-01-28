@@ -11,7 +11,7 @@ function watchGlobs(globs: string | readonly string[]): Plugin {
     buildStart() {
       const items = Array.isArray(globs) ? globs : [globs];
       items.forEach((item) => {
-        glob.sync(path.resolve(__dirname, item)).forEach((filename) => {
+        glob.sync(path.resolve(item)).forEach((filename) => {
           this.addWatchFile(filename);
         });
       });
